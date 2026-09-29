@@ -8,6 +8,12 @@
 > [!CAUTION]
 > A personal, experimental project, provided **as is**, without any warranty. The author is not responsible for bugs, data loss, device problems or any other damage resulting from its use. Use it only on devices and networks you own. Nobody is asked or expected to use it: read the code, or build your own if you prefer.
 
+## Video
+
+A 70-second overview: what it does, Vision Pro or Mac, how it works, and how to install. The 4K version is attached to the latest release.
+
+<!-- Drag video/out/PhoneRemote-1080p.mp4 into this README in GitHub's web editor to embed it here. -->
+
 ## What it does
 
 - Shows the iPhone's live screen in a phone-shaped window that turns when you rotate the phone.

@@ -6,3 +6,4 @@ dist/
 .devicekit/
 *.xcuserstate
 xcuserdata/
+video/out/
