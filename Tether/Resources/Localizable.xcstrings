@@ -1,0 +1,1108 @@
+{
+  "sourceLanguage": "en",
+  "strings": {
+    "%@ is paired. Tap Start Mirroring on it.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ est jumelé. Touchez « Lancer la recopie » dessus."
+          }
+        }
+      }
+    },
+    "%lld": {
+      "shouldTranslate": false
+    },
+    "ABCD-2345": {
+      "shouldTranslate": false
+    },
+    "Actual Size": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Taille réelle"
+          }
+        }
+      }
+    },
+    "App Switcher": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sélecteur d’apps"
+          }
+        }
+      }
+    },
+    "App Switcher (⌘2)": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sélecteur d’apps (⌘2)"
+          }
+        }
+      }
+    },
+    "Cancel": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Annuler"
+          }
+        }
+      }
+    },
+    "Choose **%@** and enter this code:": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Choisissez **%@** et saisissez ce code :"
+          }
+        }
+      }
+    },
+    "Connecting to %@…": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Connexion à %@…"
+          }
+        }
+      }
+    },
+    "Control could not start. Connect and unlock the iPhone, then try again.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Le contrôle n’a pas pu démarrer. Connectez et déverrouillez l’iPhone, puis réessayez."
+          }
+        }
+      }
+    },
+    "Control off": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Contrôle désactivé"
+          }
+        }
+      }
+    },
+    "Control stopped. Is the iPhone still connected and unlocked?": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Le contrôle s’est arrêté. L’iPhone est-il toujours connecté et déverrouillé ?"
+          }
+        }
+      }
+    },
+    "Control:": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Contrôle :"
+          }
+        }
+      }
+    },
+    "Couldn't reach %@. Open Phone Remote on it and make sure both devices are on the same Wi-Fi network.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Impossible de joindre %@. Ouvrez Phone Remote dessus et vérifiez que les deux appareils sont sur le même réseau Wi-Fi."
+          }
+        }
+      }
+    },
+    "Couldn't reach that device. Keep Phone Remote open on it and make sure both devices are on the same Wi-Fi network.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Impossible de joindre cet appareil. Laissez Phone Remote ouvert dessus et vérifiez que les deux appareils sont sur le même réseau Wi-Fi."
+          }
+        }
+      }
+    },
+    "Create a new code?": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Créer un nouveau code ?"
+          }
+        }
+      }
+    },
+    "Done": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "OK"
+          }
+        }
+      }
+    },
+    "Enter the code shown in Phone Remote on %@.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Saisissez le code affiché dans Phone Remote sur %@."
+          }
+        }
+      }
+    },
+    "Enter this code in Phone Remote on another iPhone to pair it with %@.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Saisissez ce code dans Phone Remote sur un autre iPhone pour le jumeler avec %@."
+          }
+        }
+      }
+    },
+    "Every paired iPhone will need to pair again. Any current mirroring stops.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chaque iPhone jumelé devra être jumelé à nouveau. La recopie en cours s’arrête."
+          }
+        }
+      }
+    },
+    "Forget This Device": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Oublier cet appareil"
+          }
+        }
+      }
+    },
+    "Go to the iPhone's Home Screen": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Revenir à l’écran d’accueil de l’iPhone"
+          }
+        }
+      }
+    },
+    "Go to the iPhone's Home Screen (⌘1)": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Revenir à l’écran d’accueil de l’iPhone (⌘1)"
+          }
+        }
+      }
+    },
+    "Hide Controls": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Masquer les commandes"
+          }
+        }
+      }
+    },
+    "Home": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Accueil"
+          }
+        }
+      }
+    },
+    "Install Phone Remote on your iPhone and open it.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Installez Phone Remote sur votre iPhone et ouvrez-le."
+          }
+        }
+      }
+    },
+    "Keep this window open while you mirror.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Laissez cette fenêtre ouverte pendant la recopie."
+          }
+        }
+      }
+    },
+    "Keyboard Tips": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Raccourcis clavier"
+          }
+        }
+      }
+    },
+    "Large": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Grand"
+          }
+        }
+      }
+    },
+    "Larger": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Plus grand"
+          }
+        }
+      }
+    },
+    "Lock": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Verrouiller"
+          }
+        }
+      }
+    },
+    "Lock (⌘L)": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Verrouiller (⌘L)"
+          }
+        }
+      }
+    },
+    "Lock the iPhone": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Verrouiller l’iPhone"
+          }
+        }
+      }
+    },
+    "Long press": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Appui long"
+          }
+        }
+      }
+    },
+    "Looking for devices…": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Recherche d’appareils…"
+          }
+        }
+      }
+    },
+    "Medium": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Moyen"
+          }
+        }
+      }
+    },
+    "Mirroring goes to whichever device has Phone Remote open. If both are open, the one you used last.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La recopie va vers l’appareil où Phone Remote est ouvert. Si les deux le sont, vers le dernier utilisé."
+          }
+        }
+      }
+    },
+    "Mirroring was stopped from Apple Vision Pro.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La recopie a été arrêtée depuis l’Apple Vision Pro."
+          }
+        }
+      }
+    },
+    "Mirroring works. Controlling the iPhone needs a one-time developer setup with a Mac.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La recopie fonctionne. Contrôler l’iPhone nécessite une configuration développeur unique avec un Mac."
+          }
+        }
+      }
+    },
+    "New Code": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nouveau code"
+          }
+        }
+      }
+    },
+    "Not open": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pas ouvert"
+          }
+        }
+      }
+    },
+    "Open Settings": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ouvrir Réglages"
+          }
+        }
+      }
+    },
+    "Open Phone Remote on your Apple Vision Pro or Mac. It appears below when both devices are on the same Wi-Fi network.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ouvrez Phone Remote sur votre Apple Vision Pro ou votre Mac. Il apparaît ci-dessous quand les deux appareils sont sur le même réseau Wi-Fi."
+          }
+        }
+      }
+    },
+    "Open Phone Remote on your iPhone and pair it with your Apple Vision Pro or Mac first.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ouvrez d’abord Phone Remote sur votre iPhone et jumelez-le avec votre Apple Vision Pro ou votre Mac."
+          }
+        }
+      }
+    },
+    "Open Phone Remote on your iPhone.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ouvrez Phone Remote sur votre iPhone."
+          }
+        }
+      }
+    },
+    "Options for %@": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Options pour %@"
+          }
+        }
+      }
+    },
+    "Pair": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jumeler"
+          }
+        }
+      }
+    },
+    "Pair Another Device": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jumeler un autre appareil"
+          }
+        }
+      }
+    },
+    "Pair a Device": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jumeler un appareil"
+          }
+        }
+      }
+    },
+    "Paired": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jumelé"
+          }
+        }
+      }
+    },
+    "Pairing": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jumelage"
+          }
+        }
+      }
+    },
+    "Pairing Code": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Code de jumelage"
+          }
+        }
+      }
+    },
+    "Pairing code": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Code de jumelage"
+          }
+        }
+      }
+    },
+    "Passwords and some protected video are hidden by iOS while mirroring.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pendant la recopie, iOS masque les mots de passe et certaines vidéos protégées."
+          }
+        }
+      }
+    },
+    "Paste the Mac's clipboard": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Coller le presse-papiers du Mac"
+          }
+        }
+      }
+    },
+    "Pinch to tap. Pinch and drag to swipe.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pincez pour toucher. Pincez et déplacez pour balayer."
+          }
+        }
+      }
+    },
+    "Ready": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Prêt"
+          }
+        }
+      }
+    },
+    "Reconnecting…": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reconnexion…"
+          }
+        }
+      }
+    },
+    "Remote control: Off": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Contrôle à distance : désactivé"
+          }
+        }
+      }
+    },
+    "Remote control: On": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Contrôle à distance : activé"
+          }
+        }
+      }
+    },
+    "Retry": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Réessayer"
+          }
+        }
+      }
+    },
+    "Screen of %@": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Écran de %@"
+          }
+        }
+      }
+    },
+    "Send": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Envoyer"
+          }
+        }
+      }
+    },
+    "Show Controls": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Afficher les commandes"
+          }
+        }
+      }
+    },
+    "Size": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Taille"
+          }
+        }
+      }
+    },
+    "Small": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Petit"
+          }
+        }
+      }
+    },
+    "Smaller": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Plus petit"
+          }
+        }
+      }
+    },
+    "Spotlight": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Spotlight"
+          }
+        }
+      }
+    },
+    "Start Mirroring": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lancer la recopie"
+          }
+        }
+      }
+    },
+    "Starting control…": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Démarrage du contrôle…"
+          }
+        }
+      }
+    },
+    "Stop": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Arrêter"
+          }
+        }
+      }
+    },
+    "Stop Mirroring": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Arrêter la recopie"
+          }
+        }
+      }
+    },
+    "Stop Mirroring (⌘.)": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Arrêter la recopie (⌘.)"
+          }
+        }
+      }
+    },
+    "Stop mirroring on the iPhone": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Arrêter la recopie sur l’iPhone"
+          }
+        }
+      }
+    },
+    "Swipe": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Balayer"
+          }
+        }
+      }
+    },
+    "Tap": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Toucher"
+          }
+        }
+      }
+    },
+    "Tap **Start Mirroring**, then **Start Broadcast**.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Touchez **Lancer la recopie**, puis **Commencer la diffusion**."
+          }
+        }
+      }
+    },
+    "Tap Start Mirroring, then Start Broadcast.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Touchez « Lancer la recopie », puis « Commencer la diffusion »."
+          }
+        }
+      }
+    },
+    "Tap a text field on the iPhone first, then type here.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Touchez d’abord un champ de texte sur l’iPhone, puis écrivez ici."
+          }
+        }
+      }
+    },
+    "Tap and swipe from your Vision Pro or Mac. Your iPhone stays awake while mirroring.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Touchez et balayez depuis votre Vision Pro ou votre Mac. Votre iPhone reste allumé pendant la recopie."
+          }
+        }
+      }
+    },
+    "Text to send": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Texte à envoyer"
+          }
+        }
+      }
+    },
+    "That code doesn't match. Check the code shown in Phone Remote on that device.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ce code ne correspond pas. Vérifiez le code affiché dans Phone Remote sur cet appareil."
+          }
+        }
+      }
+    },
+    "The pairing code no longer matches %@. Open Phone Remote on your iPhone to pair again.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Le code de jumelage ne correspond plus à %@. Ouvrez Phone Remote sur votre iPhone pour le jumeler à nouveau."
+          }
+        }
+      }
+    },
+    "To stop, tap the red indicator at the top of the screen, or use Control Center.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pour arrêter, touchez l’indicateur rouge en haut de l’écran ou utilisez le centre de contrôle."
+          }
+        }
+      }
+    },
+    "Turn On Control": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Activer le contrôle"
+          }
+        }
+      }
+    },
+    "Type": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Écrire"
+          }
+        }
+      }
+    },
+    "Type on iPhone": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Écrire sur l’iPhone"
+          }
+        }
+      }
+    },
+    "Type on the iPhone": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Écrire sur l’iPhone"
+          }
+        }
+      }
+    },
+    "Types on the iPhone": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Écrit sur l’iPhone"
+          }
+        }
+      }
+    },
+    "Volume": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Volume"
+          }
+        }
+      }
+    },
+    "Volume Down": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Baisser le volume"
+          }
+        }
+      }
+    },
+    "Volume Down (⌘↓)": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Baisser le volume (⌘↓)"
+          }
+        }
+      }
+    },
+    "Volume Up": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Augmenter le volume"
+          }
+        }
+      }
+    },
+    "Volume Up (⌘↑)": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Augmenter le volume (⌘↑)"
+          }
+        }
+      }
+    },
+    "Waiting for your iPhone": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "En attente de votre iPhone"
+          }
+        }
+      }
+    },
+    "Window size": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Taille de la fenêtre"
+          }
+        }
+      }
+    },
+    "Your Devices": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vos appareils"
+          }
+        }
+      }
+    },
+    "Your iPhone and Apple Vision Pro need to be on the same Wi-Fi network.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Votre iPhone et votre Apple Vision Pro doivent être sur le même réseau Wi-Fi."
+          }
+        }
+      }
+    },
+    "Your iPhone and Mac need to be on the same Wi-Fi network.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Votre iPhone et votre Mac doivent être sur le même réseau Wi-Fi."
+          }
+        }
+      }
+    },
+    "Your iPhone screen, in a window on Apple Vision Pro or Mac.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "L’écran de votre iPhone, dans une fenêtre sur l’Apple Vision Pro ou le Mac."
+          }
+        }
+      }
+    },
+    "Your screen goes straight from your iPhone to your Vision Pro or Mac over your local network, encrypted with your pairing code. Nothing is sent to the internet or collected.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Votre écran passe directement de votre iPhone à votre Vision Pro ou votre Mac par votre réseau local, chiffré avec votre code de jumelage. Rien n’est envoyé sur Internet ni collecté."
+          }
+        }
+      }
+    },
+    "iPhone": {
+      "shouldTranslate": false
+    },
+    "Phone Remote": {
+      "shouldTranslate": false
+    },
+    "Phone Remote can't use the network right now: %@": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Phone Remote ne peut pas utiliser le réseau pour le moment : %@"
+          }
+        }
+      }
+    },
+    "Phone Remote is open": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Phone Remote est ouvert"
+          }
+        }
+      }
+    },
+    "Phone Remote needs Local Network access to find your devices. Turn it on in Settings › Privacy & Security › Local Network.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Phone Remote a besoin de l’accès au réseau local pour trouver vos appareils. Activez-le dans Réglages › Confidentialité et sécurité › Réseau local."
+          }
+        }
+      }
+    },
+    "iPhone screen": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Écran de l’iPhone"
+          }
+        }
+      }
+    },
+    "Turn Off Control": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Désactiver le contrôle"
+          }
+        }
+      }
+    },
+    "This version of the control helper can't be stopped from the iPhone. Quit Phone Remote on the Mac, or stop the script there.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cette version de l’outil de contrôle ne peut pas être arrêtée depuis l’iPhone. Quittez Phone Remote sur le Mac ou arrêtez-y le script."
+          }
+        }
+      }
+    },
+    "See docs/CONTROL.md on the project page to turn it on.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Consultez docs/CONTROL.md sur la page du projet pour l’activer."
+          }
+        }
+      }
+    },
+    "Enter your Apple developer Team ID to turn on control.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Saisissez votre identifiant d’équipe développeur Apple pour activer le contrôle."
+          }
+        }
+      }
+    },
+    "Team ID": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ID d’équipe"
+          }
+        }
+      }
+    },
+    "Your Apple developer Team ID: Xcode › Settings › Accounts": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Votre identifiant d’équipe développeur Apple : Xcode › Réglages › Comptes"
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}

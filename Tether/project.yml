@@ -1,0 +1,147 @@
+name: Tether
+options:
+  bundleIdPrefix: app.phoneremote
+  developmentLanguage: en
+  knownRegions: [en, fr, Base]
+  deploymentTarget:
+    iOS: "18.0"
+    visionOS: "2.0"
+    macOS: "15.0"
+settings:
+  base:
+    TETHER_TEAM_ID: ""  # set with scripts/install.sh YOUR_TEAM_ID
+    DEVELOPMENT_TEAM: $(TETHER_TEAM_ID)
+    # Other builders override both, e.g. scripts/install.sh.
+    TETHER_BUNDLE_PREFIX: app.phoneremote
+    CODE_SIGN_STYLE: Automatic
+    SWIFT_VERSION: "5.0"
+    MARKETING_VERSION: "1.0"
+    CURRENT_PROJECT_VERSION: "1"
+    LOCALIZATION_PREFERS_STRING_CATALOGS: YES
+    SWIFT_EMIT_LOC_STRINGS: YES
+targets:
+  Tether-iOS:
+    type: application
+    platform: iOS
+    sources:
+      - path: iOS/App
+      - path: iOS/Shared
+      - path: Shared
+      - path: Resources/Localizable.xcstrings
+    dependencies:
+      - target: TetherBroadcast
+    entitlements:
+      path: iOS/App/Tether.entitlements
+      properties:
+        com.apple.security.application-groups: [group.$(TETHER_BUNDLE_PREFIX).tether]
+    info:
+      path: iOS/App/Info.plist
+      properties:
+        CFBundleDisplayName: Phone Remote
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
+        LSApplicationCategoryType: public.app-category.utilities
+        ITSAppUsesNonExemptEncryption: false
+        NSLocalNetworkUsageDescription: Phone Remote finds your Apple Vision Pro on your Wi-Fi network and sends your screen to it.
+        NSBonjourServices: [_tether._tcp]
+        UILaunchScreen: {}
+        UISupportedInterfaceOrientations: [UIInterfaceOrientationPortrait]
+        UIApplicationSceneManifest:
+          UIApplicationSupportsMultipleScenes: false
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: $(TETHER_BUNDLE_PREFIX).tether
+        PRODUCT_NAME: Tether
+        TARGETED_DEVICE_FAMILY: "1"
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
+  TetherBroadcast:
+    type: app-extension
+    platform: iOS
+    sources:
+      - path: iOS/Broadcast
+      - path: iOS/Shared
+      - path: Shared
+      - path: Resources/Localizable.xcstrings
+    entitlements:
+      path: iOS/Broadcast/TetherBroadcast.entitlements
+      properties:
+        com.apple.security.application-groups: [group.$(TETHER_BUNDLE_PREFIX).tether]
+    info:
+      path: iOS/Broadcast/Info.plist
+      properties:
+        CFBundleDisplayName: Phone Remote
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
+        NSLocalNetworkUsageDescription: Phone Remote finds your Apple Vision Pro on your Wi-Fi network and sends your screen to it.
+        NSBonjourServices: [_tether._tcp]
+        NSExtension:
+          NSExtensionPointIdentifier: com.apple.broadcast-services-upload
+          NSExtensionPrincipalClass: $(PRODUCT_MODULE_NAME).SampleHandler
+          RPBroadcastProcessMode: RPBroadcastProcessModeSampleBuffer
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: $(TETHER_BUNDLE_PREFIX).tether.broadcast
+        PRODUCT_NAME: TetherBroadcast
+        TARGETED_DEVICE_FAMILY: "1"
+  Tether-visionOS:
+    type: application
+    platform: visionOS
+    sources:
+      - path: visionOS
+      - path: Receiver
+      - path: Shared
+      - path: Resources/Localizable.xcstrings
+    info:
+      path: visionOS/Info.plist
+      properties:
+        CFBundleDisplayName: Phone Remote
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
+        LSApplicationCategoryType: public.app-category.utilities
+        ITSAppUsesNonExemptEncryption: false
+        NSLocalNetworkUsageDescription: Phone Remote receives your iPhone's screen over your Wi-Fi network.
+        NSBonjourServices: [_tether._tcp]
+        UIApplicationSceneManifest:
+          UIApplicationSupportsMultipleScenes: false
+          UIApplicationPreferredDefaultSceneSessionRole: UIWindowSceneSessionRoleApplication
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: $(TETHER_BUNDLE_PREFIX).tether
+        PRODUCT_NAME: Tether
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
+  Tether-macOS:
+    type: application
+    platform: macOS
+    sources:
+      - path: macOS
+      - path: Receiver
+      - path: Shared
+      - path: Resources/Localizable.xcstrings
+      - path: ../scripts/enable-control.sh
+        buildPhase: resources
+      - path: ../scripts/devicekit-tether.patch
+        buildPhase: resources
+    info:
+      path: macOS/Info.plist
+      properties:
+        CFBundleDisplayName: Phone Remote
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
+        LSApplicationCategoryType: public.app-category.utilities
+        NSLocalNetworkUsageDescription: Phone Remote receives your iPhone's screen over your Wi-Fi network.
+        NSBonjourServices: [_tether._tcp]
+        # Lets the app start control (DeviceKit) with the team it was built with.
+        TetherTeamID: $(TETHER_TEAM_ID)
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: $(TETHER_BUNDLE_PREFIX).tether.mac
+        PRODUCT_NAME: Phone Remote
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
+        # Runs locally without a registered Mac: no provisioning profile needed.
+        CODE_SIGN_STYLE: Manual
+        CODE_SIGN_IDENTITY: "-"
+        DEVELOPMENT_TEAM: ""
+        ENABLE_HARDENED_RUNTIME: NO
