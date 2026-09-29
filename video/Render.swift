@@ -778,7 +778,7 @@ struct EndScene: View {
                     .opacity(ramp(t, 0.1, 0.8))
                 Headline(text: "Phone Remote", size: 80).appear(t, at: 0.5)
                 Subline(text: "Free and open source on GitHub. Source code, IPAs and Mac app.", size: 32).appear(t, at: 1.1)
-                Subline(text: "Donations welcome, never required.", size: 26).appear(t, at: 1.7)
+                Subline(text: "Free for everyone. No payments, no donations.", size: 26).appear(t, at: 1.7)
                 Text("A personal project, provided as is. Not affiliated with Apple. iPhone, Apple Vision Pro and Mac are trademarks of Apple Inc.")
                     .font(.system(size: 17))
                     .foregroundStyle(.white.opacity(0.45))

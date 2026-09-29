@@ -82,9 +82,9 @@ brew install xcodegen          # only to regenerate the Xcode project
 ./scripts/build-release.sh     # IPAs, DMG and SHA256SUMS in dist/
 ```
 
-## Support
+## Cost
 
-Free. If you'd like to support it, there's a donation link on this page. There's absolutely no obligation.
+Free, with no donations or payments of any kind. It's shared with the community as is.
 
 ## License
 
