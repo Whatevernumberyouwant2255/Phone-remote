@@ -10,7 +10,7 @@
 
 ## Video
 
-A 70-second overview: what it does, Vision Pro or Mac, how it works, and how to install. The 4K version is attached to the latest release.
+A 70-second overview: what it does, Vision Pro or Mac, how it works, and how to install.
 
 <!-- Drag video/out/PhoneRemote-1080p.mp4 into this README in GitHub's web editor to embed it here. -->
 
@@ -48,17 +48,17 @@ Requirements: a Mac with Xcode, an Apple ID signed into Xcode (a free Personal T
 
 This builds and installs the apps on your iPhone and Vision Pro, puts the Mac app in `~/Applications`, and starts control. Your Team ID is in Xcode › Settings › Accounts.
 
-### Option B: sideload the release files (mirroring; control still needs Xcode)
+### Option B: sideload the ready-made files (mirroring; control still needs Xcode)
 
-From the Releases page:
+Download directly below, or from the [`downloads`](downloads) folder:
 
 | File | Where | How |
 |---|---|---|
-| `PhoneRemote-iOS.ipa` | iPhone | AltStore, SideStore, Sideloadly… (they re-sign it with your Apple ID) |
-| `PhoneRemote-visionOS.ipa` | Apple Vision Pro | a sideloading tool that supports visionOS, or Xcode |
-| `PhoneRemote-macOS.dmg` | Mac | drag to Applications |
+| [`PhoneRemote-iOS.ipa`](https://github.com/Whatevernumberyouwant2255/Phone-remote/raw/main/downloads/PhoneRemote-iOS.ipa) | iPhone | AltStore, SideStore, Sideloadly… (they re-sign it with your Apple ID) |
+| [`PhoneRemote-visionOS.ipa`](https://github.com/Whatevernumberyouwant2255/Phone-remote/raw/main/downloads/PhoneRemote-visionOS.ipa) | Apple Vision Pro | a sideloading tool that supports visionOS, or Xcode |
+| [`PhoneRemote-macOS.dmg`](https://github.com/Whatevernumberyouwant2255/Phone-remote/raw/main/downloads/PhoneRemote-macOS.dmg) | Mac | drag to Applications |
 
-The files are **not signed with any developer certificate**. On the Mac, the first time: right-click the app › Open, or run `xattr -dr com.apple.quarantine "/Applications/Phone Remote.app"`. Check downloads against `SHA256SUMS`.
+The files are **not signed with any developer certificate**. On the Mac, the first time: right-click the app › Open, or run `xattr -dr com.apple.quarantine "/Applications/Phone Remote.app"`. Check downloads against [`SHA256SUMS`](downloads/SHA256SUMS).
 
 To add control with Option B, the Mac app asks for your Team ID and starts DeviceKit itself (Xcode must be installed). See [docs/CONTROL.md](docs/CONTROL.md).
 
